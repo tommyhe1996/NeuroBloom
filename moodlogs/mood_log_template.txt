@@ -1,0 +1,17 @@
+# Mood Log Template (for NeuroBloom)
+
+Use this format to manually write entries or view structure from the mood_logger.py script.
+
+---
+
+Date: [YYYY-MM-DD HH:MM:SS]
+Mood: [emoji]
+Reflection: [short text or poetic thought]
+Affirmation: [encouraging or affirming statement]
+
+---
+
+Date: 2025-06-09 21:05:32
+Mood: 😊
+Reflection: Today I felt light and focused while journaling.
+Affirmation: I am growing gently and that is enough.
