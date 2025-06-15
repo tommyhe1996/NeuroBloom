@@ -51,3 +51,5 @@ A neurodivergent-friendly mood journaling and reflection app designed for creati
 ---
 
 ## 📁 Folder Structure (Planned)
+
+
