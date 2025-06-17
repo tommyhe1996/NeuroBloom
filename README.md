@@ -48,7 +48,25 @@ A neurodivergent-friendly mood journaling and reflection app designed for creati
 #### 🌷 Phase 4: Enrichment Features
 - Petal visualization from daily entries  
 - Soft ambient soundscapes by mood  
-- Affirmation library with AI-assisted suggestions  
+- Affirmation library with AI-assisted suggestions
+
+---
+
+<!-- 🌸 NEUROBLOOM BANNER SKETCH (Placeholder) -->
+
+<h1 align="center" style="font-family: 'Georgia', cursive;">
+  🌸 <br>
+  <strong>NeuroBloom</strong>  
+</h1>
+
+<p align="center">
+  <em>A neurodivergent-friendly journaling space for emotion, poetry, and personal growth</em><br>
+  🌿 Soft reflections · 💖 Gentle moods · 🌈 Creative expression
+</p>
+
+<p align="center">
+  <img src="https://via.placeholder.com/800x200.png?text=NeuroBloom+Soft+Banner+Coming+Soon" width="80%" alt="NeuroBloom Banner Placeholder"/>
+</p>
 
 ---
 
@@ -73,22 +91,6 @@ NeuroBloom/
 └── /docs/
     ├── NeuroBloom_Creative_Notes_Updated.pdf
     └── NeuroBloom_GitHub_Layout_Brief.pdf
-
-<!-- 🌸 NEUROBLOOM BANNER SKETCH (Placeholder) -->
-
-<h1 align="center" style="font-family: 'Georgia', cursive;">
-  🌸 <br>
-  <strong>NeuroBloom</strong>  
-</h1>
-
-<p align="center">
-  <em>A neurodivergent-friendly journaling space for emotion, poetry, and personal growth</em><br>
-  🌿 Soft reflections · 💖 Gentle moods · 🌈 Creative expression
-</p>
-
-<p align="center">
-  <img src="https://via.placeholder.com/800x200.png?text=NeuroBloom+Soft+Banner+Coming+Soon" width="80%" alt="NeuroBloom Banner Placeholder"/>
-</p>
 
 ---
 
