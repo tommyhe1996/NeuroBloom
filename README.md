@@ -1,3 +1,10 @@
+---
+
+## 🔖 Tags
+
+`neurodivergent` • `mood-journal` • `mental-health` • `poetic-reflection` • `inclusive-design` • `journaling-app` • `emotion-tracking` • `creative-tech`
+---
+
 # 🌸 NeuroBloom
 
 A neurodivergent-friendly mood journaling and reflection app designed for creativity, emotional regulation, and poetic self-expression.
