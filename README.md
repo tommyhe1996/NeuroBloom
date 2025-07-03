@@ -2,9 +2,9 @@
 
 # 🌸 NeuroBloom
 
-![License](https://img.shields.io/badge/license-MIT-green.svg)
-[![Live Site](https://img.shields.io/badge/Live%20Site-NeuroBloom-blue)](https://tommyhe1996.github.io/NeuroBloom/)
-
+![MIT License](https://img.shields.io/badge/license-MIT-green.svg)
+![Live Site](https://img.shields.io/badge/Live-NeuroBloom-blue)
+![Version](https://img.shields.io/badge/version-1.1-informational)
 A neurodivergent-friendly mood journaling and reflection app designed for creativity, emotional regulation, and poetic self-expression.
 
 ---
