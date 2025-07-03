@@ -81,6 +81,12 @@ A neurodivergent-friendly mood journaling and reflection app designed for creati
 ---
 ## 📍 Roadmap
 Want to see what’s coming next? Check out the [NeuroBloom Roadmap](docs/ROADMAP.md) for version plans and release goals.
+
+---
+### 🌐 Live Deployment
+
+[Click here to access NeuroBloom Live](https://your-live-deployment-link.com)
+
 ---
 
 ### 📁 Folder Structure (Planned)
