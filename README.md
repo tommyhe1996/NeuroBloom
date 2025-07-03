@@ -100,4 +100,7 @@ NeuroBloom/
 
 ---
 
+## 📍 Roadmap
+Want to see what’s coming next? Check out the [NeuroBloom Roadmap](docs/ROADMAP.md) for version plans and release goals.
+
 ```
