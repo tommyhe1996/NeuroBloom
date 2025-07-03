@@ -20,6 +20,13 @@ A neurodivergent-friendly mood journaling and reflection app designed for creati
 `neurodivergent` • `mood-journal` • `mental-health` • `poetic-reflection` • `inclusive-design` • `journaling-app` • `emotion-tracking` • `creative-tech`
 ---
 
+## Getting Started
+1. Clone the repo
+2. Install dependencies
+3. Run `index.html` in browser or deploy to GitHub Pages
+
+---
+
 ### ✨ Features
 
 | Category           | Description                                                                 |
