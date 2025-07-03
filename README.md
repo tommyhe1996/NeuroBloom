@@ -1,15 +1,17 @@
+---
+
+# 🌸 NeuroBloom
+
+![License](https://img.shields.io/badge/license-MIT-green.svg)
+[![Live Site](https://img.shields.io/badge/Live%20Site-NeuroBloom-blue)](https://tommyhe1996.github.io/NeuroBloom/)
+
+A neurodivergent-friendly mood journaling and reflection app designed for creativity, emotional regulation, and poetic self-expression.
 
 ---
 
 ## 🔖 Tags
 
 `neurodivergent` • `mood-journal` • `mental-health` • `poetic-reflection` • `inclusive-design` • `journaling-app` • `emotion-tracking` • `creative-tech`
----
-
-# 🌸 NeuroBloom
-
-A neurodivergent-friendly mood journaling and reflection app designed for creativity, emotional regulation, and poetic self-expression.
-
 ---
 
 ### ✨ Features
