@@ -7,6 +7,10 @@ This page is your go-to hub for accessing the active version of the app and lear
 ## 🔗 Live Link
 [Click here to access NeuroBloom Live](https://your-live-page-link.com)
 
+### 🔗 Live Deployment
+
+[Click here to use NeuroBloom Live](https://your-deployment-link.com)
+
 ## 📌 Key Features
 - Mood journaling using emojis
 - Self-reflection via poetic prompts
