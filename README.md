@@ -77,6 +77,9 @@ A neurodivergent-friendly mood journaling and reflection app designed for creati
 </p>
 
 ---
+## 📍 Roadmap
+Want to see what’s coming next? Check out the [NeuroBloom Roadmap](docs/ROADMAP.md) for version plans and release goals.
+---
 
 ### 📁 Folder Structure (Planned)
 
@@ -102,9 +105,5 @@ NeuroBloom/
 
 ---
 
-### 📍 Roadmap
-Want to see what’s coming next? Check out the [NeuroBloom Roadmap](docs/ROADMAP.md) for version plans and release goals.
-
----
 
 ```
