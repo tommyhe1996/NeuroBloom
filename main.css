@@ -1,0 +1,26 @@
+
+/* NeuroBloom UI Core Styles */
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fdf6f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #a35d7a;
+}
+
+button {
+  background-color: #ffe4ec;
+  color: #a35d7a;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffcad4;
+}
