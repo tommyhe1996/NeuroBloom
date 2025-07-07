@@ -97,6 +97,14 @@ Want to see what’s coming next? Check out the [NeuroBloom Roadmap](docs/ROADMA
 
 ---
 
+## 🤝 Contributing
+
+We welcome developers, designers, artists, and dreamers to help improve NeuroBloom!
+
+Please check out our [CONTRIBUTING.md](./CONTRIBUTING.md) to get started.
+
+---
+
 
 ### 📁 Folder Structure (Planned)
 
