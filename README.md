@@ -105,6 +105,12 @@ Please check out our [CONTRIBUTING.md](./CONTRIBUTING.md) to get started.
 
 ---
 
+📌 Project Board & Sprint Plan  
+For detailed issue tracking and development progress for version 1.1, check out the  
+👉 [NeuroBloom: Build & Refine v1.1 Project Board](./PROJECTS.md)
+
+---
+
 
 ### 📁 Folder Structure (Planned)
 
