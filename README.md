@@ -111,6 +111,11 @@ For detailed issue tracking and development progress for version 1.1, check out 
 
 ---
 
+📘 Documentation  
+Explore the full documentation to learn more about NeuroBloom’s design, principles, and usage:
+
+👉 [NeuroBloom Documentation](docs/README.md)
+---
 
 ### 📁 Folder Structure (Planned)
 
