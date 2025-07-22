@@ -1,0 +1,80 @@
+# 🧩 Auto-Add Issues to NeuroBloom Project v1.2
+
+This GitHub Action automatically adds newly created issues to the **NeuroBloom v1.2 – Inspire & Evolve** project board.
+
+---
+
+## 🚀 Features
+
+- Automatically adds new issues to your GitHub Project v2 board
+- Works when issues are opened or labeled
+- Powered by GitHub’s GraphQL API
+
+---
+
+## 🛠️ Setup Instructions
+
+1. **Get Your Project ID**
+   - Run a GraphQL query to get the Project ID for your board (e.g., `PVT_kwDOEXAMPLE123`)
+
+2. **Create a Personal Access Token (PAT)**
+   - Generate a token at [GitHub Developer Settings](https://github.com/settings/tokens)
+   - Make sure it has **repo** and **project** scopes
+
+3. **Add Your Token to Repository Secrets**
+   - Go to your repository → Settings → Secrets → Actions
+   - Add your PAT as a secret named: `GH_PAT`
+
+4. **Create Workflow File**
+   - Save the following YAML as `.github/workflows/add-to-project.yml`
+
+```yaml
+name: Auto-add Issues to Project v1.2
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  add-to-project:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add issue to NeuroBloom v1.2 project
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GH_PAT }}
+          script: |
+            const projectId = "PVT_kwDOEXAMPLE123"; // Replace this with your actual project ID
+            const issueId = context.payload.issue.node_id;
+
+            const result = await github.graphql(`
+              mutation($projectId: ID!, $contentId: ID!) {
+                addProjectV2ItemById(input: {
+                  projectId: $projectId,
+                  contentId: $contentId
+                }) {
+                  item {
+                    id
+                  }
+                }
+              }
+            `, {
+              projectId: projectId,
+              contentId: issueId,
+            });
+
+            console.log("✅ Issue added to project:", result.addProjectV2ItemById.item.id);
+```
+
+---
+
+## 📌 Notes
+
+- This automation works for **GitHub Project v2** only.
+- You can adapt this script for different project IDs or customize logic (e.g., filtering labels, assigning assignees).
+
+---
+
+## 📫 Contact
+
+Maintained as part of the [NeuroBloom](https://github.com/your-username/neurobloom) initiative. For support, please open a [discussion](https://github.com/your-username/neurobloom/discussions) or file an issue.
