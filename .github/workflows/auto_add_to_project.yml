@@ -1,4 +1,4 @@
-name: Auto-add issues to Project v1.2
+name: Auto-add Issues to Project v1.2
 
 on:
   issues:
@@ -13,15 +13,12 @@ jobs:
         with:
           github-token: ${{ secrets.GH_PAT }}
           script: |
-            const projectId = "PVT_h0xEXAMPLE123"; // 🔁 Replace with your actual Project ID
-            const issueId = context.payload.issue.node_id;
+            const projectId = 'PVT_kwHODMx3h84A-G6s'; // NeuroBloom v1.2 – Inspire & Evolve
+            const contentId = context.payload.issue.node_id;
 
             const result = await github.graphql(`
               mutation($projectId: ID!, $contentId: ID!) {
-                addProjectV2ItemById(input: {
-                  projectId: $projectId,
-                  contentId: $contentId
-                }) {
+                addProjectV2ItemById(input: {projectId: $projectId, contentId: $contentId}) {
                   item {
                     id
                   }
@@ -29,7 +26,7 @@ jobs:
               }
             `, {
               projectId: projectId,
-              contentId: issueId
+              contentId: contentId
             });
 
-            console.log("✅ Issue added to project:", result.addProjectV2ItemById.item.id);
+            console.log(`✅ Issue added to project:`, result.addProjectV2ItemById.item.id);
